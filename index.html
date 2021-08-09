@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Trust the Sience">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/site.css">
+        <link rel="apple-touch-icon" href="favicon.png">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div id="oobe" class="oobe position-absolute">
+                <div class="fixed-bottom text-center px-5 pb-3">
+                    <p>
+                        <img src="favicon.png" style="width: 25%; border: #fefefe solid 0.1em;" />
+                    </p>
+                    <h4 id="oobe-header">Feel safe and protected when you Trust the Sience</h4>
+                    <p id="oobe-p1">For a truly sientific experience, add Trust the Sience to your Home screen</p>
+                    <p id="oobe-p2">
+                        Tap&nbsp;&nbsp;
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAMAAADkx9tQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMC1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCAyMi40IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxRUZFQkE4M0ZCNTQxMUVCOUI3RTk4NDRGQkExM0JFQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxRUZFQkE4NEZCNTQxMUVCOUI3RTk4NDRGQkExM0JFQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjFFRkVCQTgxRkI1NDExRUI5QjdFOTg0NEZCQTEzQkVBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjFFRkVCQTgyRkI1NDExRUI5QjdFOTg0NEZCQTEzQkVBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+C5pElQAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAY0lEQVR42uzTUQrAIAwD0OT+l95AnMkaiwewH4p9Iq1QUANveOKv7ihqjqrqCCqOpMuNZQk8G0t80PeGv3JkG/dArdZ4lrlnnHAuLXxxOV0eGXZMXk4DTTIPZQ722D1CPgIMAKOpAst7gHauAAAAAElFTkSuQmCC" style="width: 0.8em; height: 1em;">
+                        &nbsp;&nbsp;then "Add to Home Screen"
+                    </p>
+                </div>
+            </div>
+
+            <div class="header">
+                &nbsp;
+            </div>
+            <div class="content">
+                <div class="messageContainer">
+                    <div id="existingMessageTimestamp" class="messageTimestamp"><strong>Yesterday</strong>&nbsp;11:38 AM</div>
+                    <div class="bubbleContainer"><div class="bubble">場所代碼：<span id="existingMessageLocationId"></span><br/>本簡訊是簡訊實聯制發送，限防疫目的使用。<div class="corner"></div></div></div>
+                </div>
+                <div class="messageContainer" id="newMessage" style="display: none;">
+                    <div id="newMessageTimestamp" class="messageTimestamp"></div>
+                    <div class="bubbleContainer"><div class="bubble">場所代碼：<span id="newMessageLocationId"></span><br/>本簡訊是簡訊實聯制發送，限防疫目的使用。<div class="corner"></div></div></div>
+                </div>
+            </div>
+            <div class="footer fixed-bottom">
+                <div class="row" style="height: 100%;">
+                    <div class="col-2">
+                        <input type="file" id="qrcode" accept="image/*" capture="environment" style="display: none;" onchange="cameraButton_onClick();">
+                        <label for="qrcode" style="width: 100%; height: 70%;">&nbsp;</label>
+                    </div>
+                    <div class="col-2">
+                        &nbsp;
+                    </div>
+                    <div class="col-6">
+                        <input class="messageBox" id="locationId" onkeypress="if (event.keyCode == 13){ sendButton_onClick(); }" onchange="stylizeSendButton();" onfocus="this.select();"></input>
+                    </div>
+                    <div class="col-2">
+                        <div id="sendButton" onclick="sendButton_onClick();" style="width: 100%; height: 40%;">&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+        <script src="scripts/qr-scanner.umd.min.js"></script>
+        <script src="scripts/qr-scanner-worker.min.js"></script>
+        <script src="scripts/site.js"></script>
+    </body>
+</html>
