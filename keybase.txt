@@ -2,3 +2,4 @@
 layout: none
 permalink: .well-known/jwks.json
 ---
+{"keys": [{"alg": "ES256", "crv": "P-256", "kty": "EC", "use": "sig", "x": "-ueBvzZ1j6WTzT1Im0GnS4QiN0poA24z9NAmwFsKPX8", "y": "4bGQoP0wWCcpGFekgTFNIinzDl4sVpT2vpQ4nIE2qhE", "kid": "vfd1NAzs3Uu_QJWw9LQEvDRF1NETF_aEFa3Ph4KhBr4"}]}
